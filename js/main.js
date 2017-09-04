@@ -1,0 +1,1 @@
+var clock;$(document).ready(function(){var b=new Date("February 8, 2018 12:02 PM EDT"),c=new Date,a=b.getTime()/1E3-c.getTime()/1E3;100>(b-c)/864E5?$(".clock").addClass("twoDayDigits"):$(".clock").addClass("threeDayDigits");0>a&&(a=0);clock=$(".clock").FlipClock(a,{clockFace:"DailyCounter",countdown:!0})});
